@@ -16,14 +16,14 @@ Future<void> _populateInitialData() async {
   if (employees.isEmpty) {
     await databaseService.createEmployee(Employee(
       id: 1,
-      name: 'John Doe',
+      name: 'sasikumar',
       department: 'IT',
       project: 'Mobile App',
       salary: 75000,
     ));
     await databaseService.createEmployee(Employee(
       id: 2,
-      name: 'Jane Smith',
+      name: 'Hari',
       department: 'HR',
       project: 'Recruitment',
       salary: 65000,
