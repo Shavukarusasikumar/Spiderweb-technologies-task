@@ -40,7 +40,7 @@ class EmployeeTable extends StatelessWidget {
               DataCell(Text(employee.name)),
               DataCell(Text(employee.department)),
               DataCell(Text(employee.project)),
-              DataCell(Text('\$${employee.salary.toStringAsFixed(2)}')),
+              DataCell(Text('\₹ ${employee.salary.toStringAsFixed(2)}')),
               DataCell(Row(
                 children: [
                   IconButton(
